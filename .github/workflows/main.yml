@@ -10,4 +10,9 @@ jobs:
     steps:
       - name: print msg for welcome users
         run:  echo " hello new user for GHactions "
+
+      - name: checkout repo
+        uses: actions/checkout@v5.0.0
+      - name: list all files
+        run: ls -la
       

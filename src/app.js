@@ -1,6 +1,6 @@
-// funcation about greet name
+
 function greet(name) {
-    console.log(`hello ${name}`);
+    return `Hello ${name}!`;
    }
 
    // export funcation

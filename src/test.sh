@@ -5,7 +5,7 @@ EXPECTED="Hello, TEST!"
 
 OUTPUT=$(node -e "console.log (require('./src/app')('TEST!'))")
 
-if [ "$EXPECTED" == "$OUTPUT" ]; then
+if [ "$OUTPUT" == "$EXPECTED" ]; then
 echo " test passed"
 exit 0
 else

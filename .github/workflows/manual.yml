@@ -7,7 +7,7 @@ on:
         default: "staging"
         type: choice
         options:
-        - satging
+        - staging
         - production
 
 jobs:

@@ -6,6 +6,7 @@ on:
             - "release/**"
         paths:
             - 'src/**'
+            - 'package.json'
     pull_request:
         branches:
             - main

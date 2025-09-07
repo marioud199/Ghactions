@@ -1,0 +1,9 @@
+on:
+  schedule:
+    # - cron: "0 1 * * *"
+jobs:
+  daily-task:
+    runs-on: ubuntu-latest
+    steps:
+    - name: print msg 
+      run: echo " hello world "

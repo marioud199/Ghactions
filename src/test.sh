@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 #src/test.sh
-EXPECTED='hello, TEST'
+EXPECTED="hello, TEST!"
 
 OUTPUT=$(node -e "console.log (require('./src/app')('TEST'))")
 

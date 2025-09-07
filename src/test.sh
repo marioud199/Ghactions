@@ -9,6 +9,6 @@ if [ "$EXPECTED" == "$OUTPUT" ]; then
 echo " test passed"
 exit 0
 else
-echo " test failed! Expected: '$EXPECTED', but got: '$OUTPUT'"
+echo " test failed! Expected: '$EXPECTED' but got '$OUTPUT'"
 exit 1
 fi

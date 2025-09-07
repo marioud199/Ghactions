@@ -4,7 +4,7 @@
     "description": "A simple Node.js app",
     "main": "src/app.js",
     "scripts": {
-        "test": "bash src/test.js"
+        "test": "bash src/test.sh"
     },
     "dependencies": {}
 }

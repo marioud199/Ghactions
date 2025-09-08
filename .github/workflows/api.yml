@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: set api key
         run: echo "api_key=123" >> $GITHUB_ENV
-      - name: use api 
-        run: echo " using api key $api_key"
+      # - name: use api 
+      #   run: echo " using api key $api_key"
+      - name: mask api_key 
+        run: |
+          echo "::add-mask:: $api_key"
+          echo "using api key $api_key"
